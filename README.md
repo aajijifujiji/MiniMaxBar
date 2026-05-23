@@ -43,32 +43,6 @@
 
 从 [GitHub Releases](https://github.com/aajijifujiji/MiniMaxBar/releases) 下载最新版本。
 
-### 方法二：从源码编译
-
-```bash
-# 克隆仓库
-git clone https://github.com/aajijifujiji/MiniMaxBar.git
-cd MiniMaxBar
-
-# 使用 Xcode 打开
-open MiniMaxQuota.xcodeproj
-
-# 在 Xcode 中点击 Build (⌘B) 编译
-```
-
-### 方法三：使用 XcodeGen
-
-```bash
-# 安装 XcodeGen (如果未安装)
-brew install xcodegen
-
-# 生成 Xcode 项目
-xcodegen generate
-
-# 编译
-xcodebuild -scheme MiniMaxQuota -configuration Release build
-```
-
 ## 使用方法
 
 ### 首次配置

@@ -41,32 +41,6 @@
 
 Download from [GitHub Releases](https://github.com/aajijifujiji/MiniMaxBar/releases).
 
-### Method 2: Build from Source
-
-```bash
-# Clone repo
-git clone https://github.com/aajijifujiji/MiniMaxBar.git
-cd MiniMaxBar
-
-# Open in Xcode
-open MiniMaxQuota.xcodeproj
-
-# Build with ⌘B in Xcode
-```
-
-### Method 3: Using XcodeGen
-
-```bash
-# Install XcodeGen (if needed)
-brew install xcodegen
-
-# Generate Xcode project
-xcodegen generate
-
-# Build
-xcodebuild -scheme MiniMaxQuota -configuration Release build
-```
-
 ## Usage
 
 ### First-time Setup
